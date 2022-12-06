@@ -22,13 +22,12 @@ body{
 .container{
     max-width: 900px;
     margin:  40px auto;
-    border: 1px solid black;
 }
 
 .container-nav{
     background-color: white;
     padding: 10px 30px;
-    border-radius: 4px 4px 0 0;
+    border-radius:10px 10px 0 0;
 }
 
 .button-nav{
@@ -50,11 +49,12 @@ body{
 main{
     background-color: white;
     margin-top: 3px;
+    border-radius:0 0 10px 10px;
 }
 .ol-primary {
-    list-style-type: "\1F44D";
+    list-style-type:"\25BC";
     padding-top: 10px;
-    padding-left: 45px;
+    padding-left: 70px;
     margin-top: 4px;
 }
 .ol-secondary{
@@ -64,13 +64,37 @@ main{
     display: inline;
 }
 .tag{
+    font-size: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
-    display: inline;
-    background-color: rgb(62, 176, 238);
-    padding: 3px;
-    border-radius: 10px;
-    font-size: 9px;
+    padding: 10px;
     color: white;
     font-weight: bold;
-    
 }
+.check{
+    list-style-type: "\2713";
+
+}
+.cross{
+    list-style-type: "\2717";
+}
+.li-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blu{
+    background-color: rgb(62, 176, 238);
+}
+.green{
+    background-color: rgb(66, 155, 14);
+}
+.pink{
+    background-color: rgb(173, 10, 173);
+}
+.yellow{
+    background-color: rgb(230, 230, 32);
+}
+
