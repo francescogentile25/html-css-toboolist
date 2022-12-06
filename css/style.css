@@ -48,3 +48,14 @@ body{
     border: 1px solid grey;
     color: grey;
 }
+.main-container{
+    margin-top: 4px;
+    border-radius:0 0 4px 4px;
+    background-color: white;
+    height: 90%;
+}
+
+.list{
+    background-color: red;
+    margin: 40px auto;
+}
