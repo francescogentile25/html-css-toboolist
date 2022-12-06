@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-nav{
+    padding-left: 20px;
+    background-color: white;
+}
+
+.log{
+    vertical-align: middle;
+}
+.title{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 40px;
+}
+body{
+    background-color: rgb(246, 248, 249);
+}
+.container{
+    height: 700px;
+    max-width: 900px;
+    background-color: blue;
+    margin:  40px auto;
+}
+
+.container-nav{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 4px 4px 0 0;
+}
+
+.button-nav{
+    border-radius: 4px;
+    padding:5px;
+    font-size: 12px;
+}
+
+.task{
+    background-color: rgb(62, 176, 238);
+    border: none;
+    color: white;
+}
+.section{
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
